@@ -1,0 +1,27 @@
+{
+    "name" : "dino/kcfinder-module",
+    "description" : "ZF2 module that provides a facade to KCFinder.",
+    "type" : "module",
+    "version" : "1.0.0-dev",
+    "keywords" : ["kcfinder", "zf2", "file manager", "image manager"],
+    "homepage" : "https://github.com/raykolbe/KCFinderModule",
+    "license" : "MIT",
+    "require" : {
+        "php" : ">=5.3.3",
+        "zendframework/zendframework" : "2.1.1",
+        "dino/kcfinder-zf2": "dev-master"
+    },
+    "authors" : [
+        {
+            "name" : "Raymond Kolbe",
+            "email" : "rkolbe@gmail.com",
+            "homepage" : "http://raymondkolbe.com",
+            "role" : "Developer"
+        }
+    ],
+    "autoload" : {
+        "psr-0" : {
+            "KCFinderModule" : "src/"
+        }
+    }
+}
